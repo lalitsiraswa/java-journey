@@ -1,6 +1,6 @@
 package thread_wait_sleep_example;
 
-//The `wait()` method is used with an object to release the lock held by the thread and wait until another thread invokes either
+// The `wait()` method is used with an object to release the lock held by the thread and wait until another thread invokes either
 // `notify()` or `notifyAll()` on the object. On the hand the `sleep()` method, which is a method of the `Thread` class pauses
 // the current threads execution, for a specific period, without releasing the lock.
 public class WaitSleepExample {
