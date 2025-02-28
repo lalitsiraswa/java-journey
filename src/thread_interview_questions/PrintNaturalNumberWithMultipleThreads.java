@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 class NumberPrinter {
-    private int currentNumber = 1;
+    private volatile int currentNumber = 1;
     private final int MAX_NUMBER = 10;
 
     public synchronized void printNumbers() {
