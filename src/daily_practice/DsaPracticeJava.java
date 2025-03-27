@@ -1,6 +1,6 @@
 package daily_practice;
 
-public class PracticeJava {
+public class DsaPracticeJava {
     public static void main(String[] args) {
 
     }
